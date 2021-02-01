@@ -5,7 +5,7 @@ from django.contrib import messages
 
 # Create your views here.
 def weatherView(request):
-    url="http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=feab60c549aaebe553e83bf8f0082541"
+    url="http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid= {API_KEY}"
     city="bhubaneswar"
     if request.method=="POST":
         cityName=request.POST.get('cityvalue')
