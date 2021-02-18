@@ -1,2 +1,2 @@
 # Weather-App
-###  This app is build using openweathermap api,django,bootstrap.😃
+###  This app is built using openweathermap api,django,bootstrap.😃
